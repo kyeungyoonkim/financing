@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Pretendard", "Segoe UI", system-ui, sans-serif;
+}
+
+body {
+  @apply bg-stone-50 text-slate-800 antialiased;
+  font-family: var(--font-sans);
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-stone-100;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-300 rounded-full;
+}
+
+.input {
+  @apply w-full bg-white border border-slate-200 rounded-lg px-3 py-2 text-sm text-slate-800 focus:outline-none focus:ring-2 focus:ring-indigo-200 focus:border-indigo-300;
+}
+
+.panel {
+  @apply bg-white border border-slate-200 rounded-xl shadow-sm;
+}
+
+.card-surface {
+  @apply bg-white border border-slate-200 rounded-xl shadow-sm;
+}
