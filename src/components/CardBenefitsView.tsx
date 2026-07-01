@@ -109,7 +109,7 @@ export function CardBenefitsView({ cards, benefits, onUpdate }: Props) {
       </div>
 
       <p className="text-xs text-slate-400">
-        CSP에는 TSA/Global Entry 크레딧이 없습니다 (Reserve 전용). IHG Premier에 $100/4년 혜택이 있습니다.
+        CSP는 2026/6/15부터 호텔 $100·GE $120/4년·Apple TV·DashPass 등 혜택이 추가되었습니다. IHG Premier에도 GE $120/4년·United TravelBank $50/년이 있습니다.
       </p>
     </div>
   )
