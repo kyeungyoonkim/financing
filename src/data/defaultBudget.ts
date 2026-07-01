@@ -104,7 +104,17 @@ export const DEFAULT_MONTHLY_BUDGETS: MonthlyBudget[] = [
   },
   {
     month: '2026-06',
-    amounts: {},
+    amounts: {
+      rent: 965.3,
+      transport: 363.3,
+      food: 296.86,
+      household: 181.2,
+      travel: 154.3,
+      phone: 57.11,
+      clothing: 42.94,
+      beauty: 34.2,
+      edu: 2.17,
+    },
   },
 ]
 
@@ -211,9 +221,16 @@ export function formatMonthLabel(month: string): string {
 }
 
 export function migrateBudgets(budgets: MonthlyBudget[]): MonthlyBudget[] {
-  return budgets.map((b) =>
-    b.month === '2026-06' && b.remark === '다이슨' ? { ...b, remark: undefined } : b,
-  )
+  const defaultJune = DEFAULT_MONTHLY_BUDGETS.find((b) => b.month === '2026-06')
+  return budgets.map((b) => {
+    if (b.month === '2026-06' && Object.keys(b.amounts).length === 0 && defaultJune) {
+      return { ...b, amounts: defaultJune.amounts }
+    }
+    if (b.month === '2026-06' && b.remark === '다이슨') {
+      return { ...b, remark: undefined }
+    }
+    return b
+  })
 }
 
 export function migrateBonuses(records: BonusRecord[]): BonusRecord[] {
