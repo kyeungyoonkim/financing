@@ -93,7 +93,7 @@ export default function App() {
         <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
           <div>
             <h1 className="text-xl font-bold tracking-tight text-slate-800">
-              나만의 가계부
+              가계부
             </h1>
             <p className="text-xs text-slate-500 mt-0.5">
               개인 재무 관리
