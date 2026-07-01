@@ -164,10 +164,13 @@ export const DEFAULT_CARD_BENEFITS: CardBenefit[] = [
     id: 'ihg-anniversary-night',
     cardId: 'ihg-premier',
     kind: 'anniversary',
-    name: '연간 무료 숙박 1박',
-    description: '40,000 IHG 포인트 이하 호텔 (카드 갱신 시) · 추가 포인트로 상위 호텔 가능',
+    name: 'Anniversary Free Night · 40,000P',
+    description:
+      '매년 연회비 갱신 시 1박권 자동 발급 · 40,000 IHG 포인트 이하 호텔 1박 (유효 12개월)',
     frequency: 'annual',
-    requirement: '연회비 $99 납부 후',
+    requirement: '연회비 $99 갱신 후 · 발급 25/09 기준 매년 9월 · 상위 호텔은 본인 포인트 추가 가능',
+    trackable: true,
+    nextEligibleDate: '2026-09-01',
   },
   {
     id: 'ihg-platinum-status',
@@ -222,10 +225,13 @@ export const DEFAULT_CARD_BENEFITS: CardBenefit[] = [
     id: 'marriott-anniversary-night',
     cardId: 'marriott-boundless',
     kind: 'anniversary',
-    name: '연간 무료 숙박 1박',
-    description: '35,000 포인트 이하 Marriott (갱신 시) · 최대 25,000P 추가로 상위 호텔 가능',
+    name: 'Anniversary Free Night · 35,000P',
+    description:
+      '매년 연회비 갱신 시 1박권 자동 발급 · 35,000 Marriott 포인트 이하 호텔 1박 (유효 12개월)',
     frequency: 'annual',
-    requirement: '연회비 $95 · 발급 25/07 기준 매년 7월',
+    requirement: '연회비 $95 갱신 후 · 발급 25/07 기준 매년 7월 · 상위 호텔은 본인 포인트 최대 25,000P 추가',
+    trackable: true,
+    nextEligibleDate: '2026-07-01',
   },
   {
     id: 'marriott-elite-nights',

@@ -75,7 +75,7 @@ export const DEFAULT_CARDS: CreditCard[] = [
     pointValue: 0.5,
     issueDate: '25/09',
     creditLimit: 10000,
-    notes: 'IHG 숙박 10x. 여행·식당·주유 5x. United TravelBank $50/년. GE $120/4년.',
+    notes: 'IHG 10x. 매년 갱신 시 Free Night 1박 (최대 40,000P). United TravelBank $50/년. GE $120/4년.',
     earningRates: [
       { category: 'hotels', rate: 10 },
       { category: 'travel', rate: 5 },
@@ -95,7 +95,7 @@ export const DEFAULT_CARDS: CreditCard[] = [
     pointValue: 0.7,
     issueDate: '25/07',
     creditLimit: 9500,
-    notes: 'Marriott 6x. 6개월마다 항공 직접결제 $250+ → $50 (오퍼 ~27/06). $5K당 elite night 1박. 그 외 2x.',
+    notes: 'Marriott 6x. 매년 갱신 시 Free Night 1박 (최대 35,000P, +25KP top-off). 항공 $50/6개월. $5K당 elite night.',
     earningRates: [{ category: 'hotels', rate: 6 }],
     transferPartners: [],
   },
