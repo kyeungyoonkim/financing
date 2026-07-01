@@ -1,6 +1,6 @@
 import type { CreditCard } from '../types'
 
-export const CARDS_DATA_VERSION = 4
+export const CARDS_DATA_VERSION = 5
 
 export const DEFAULT_CARDS: CreditCard[] = [
   {
@@ -14,7 +14,7 @@ export const DEFAULT_CARDS: CreditCard[] = [
     pointValue: 1.4,
     issueDate: '26/06',
     creditLimit: 6000,
-    notes: '첫해 연회비 면제. AA·식당·주유 2x. 보너스 목표 탭에서 MSR 추적.',
+    notes: '첫해 연회비 면제. AA·식당·주유 2x. MSR $3,666.96 남음 · 10/14 마감.',
     earningRates: [
       { category: 'airlines', rate: 2 },
       { category: 'dining', rate: 2 },
@@ -23,7 +23,7 @@ export const DEFAULT_CARDS: CreditCard[] = [
     signUpBonus: {
       bonusPoints: 85000,
       minSpend: 4000,
-      currentSpend: 0,
+      currentSpend: 333.04,
       deadline: '2026-10-14',
       excludeFromRecommend: true,
     },
