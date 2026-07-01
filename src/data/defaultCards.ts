@@ -95,7 +95,7 @@ export const DEFAULT_CARDS: CreditCard[] = [
     pointValue: 0.7,
     issueDate: '25/07',
     creditLimit: 9500,
-    notes: 'Marriott 6x. 매년 갱신 시 Free Night 1박 (최대 35,000P, +25KP top-off). 항공 $50/6개월. $5K당 elite night.',
+    notes: 'Marriott 6x. Free Night 35KP/년 (갱신 시). Elite Night은 등급용(15박/년+$5K당 1박). 항공 $50/6개월.',
     earningRates: [{ category: 'hotels', rate: 6 }],
     transferPartners: [],
   },
