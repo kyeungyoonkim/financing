@@ -139,7 +139,7 @@ export const DEFAULT_CARDS: CreditCard[] = [
     pointValue: 1.0,
     issueDate: '25/03',
     creditLimit: 8400,
-    notes: '온라인·마트·주유 각 3% (연 $6,000 한도). Walmart 온라인 포함.',
+    notes: '온라인·마트·주유 각 3% (연 $6,000 한도). Hulu Student $1.99 → 스트리밍 $7/월 크레딧.',
     earningRates: [
       { category: 'online_shopping', rate: 3 },
       { category: 'groceries', rate: 3 },
