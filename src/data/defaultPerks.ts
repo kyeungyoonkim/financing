@@ -5,7 +5,7 @@ export const DEFAULT_CARD_PERKS: CardPerk[] = [
     id: 'marriott-airline-credit',
     cardId: 'marriott-boundless',
     title: '항공권 $50 캐시백',
-    description: '6개월마다 항공권 $250 이상 결제 시 $50 statement credit',
+    description: '6개월마다 항공사 직접 결제 $250+ 시 $50 statement credit (오퍼 ~2027/06/30)',
     spendCategory: 'airlines',
     periods: [
       {
